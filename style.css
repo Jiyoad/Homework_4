@@ -1,0 +1,175 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  [class*="col-"] {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .main-link:link, .main-link:visited {
+    background-color: indianred;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px 45px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+  }
+  
+  .main-link:hover{
+    background-color: olive;
+  }
+
+  .main-link:active{
+    background-color: rgb(94, 94, 0);
+  }
+
+  .smallimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:4%;
+    border-radius: 50%;
+  }
+
+.quiz-time{
+    margin-top: 1%;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.068);
+    cursor: pointer;
+    position: static;
+  }
+
+.navbar{
+    padding-left: 20%;
+    padding-bottom: 1%;
+}
+
+.quiz{
+    padding: 1%;
+}
+
+.body{
+    background-image: url("assets/double-bubble-dark.png");
+    background-repeat: repeat;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    max-width: 60%;
+    border-radius: 15px;
+    height: 500px;
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+    color: rgb(78, 78, 78);
+    display: block; 
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+ padding-top: 1%;
+ padding-bottom: 10%;
+}
+
+#cScore{
+  color: olive;
+  position: absolute;
+  width: 50%;
+  top: 450px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+#tNum{
+  color: indianred;
+  position: absolute;
+  width: 50%;
+  top: 60px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.uI{
+  position: relative;
+}
+
+
+#question-title{
+  top: 100px;
+}
+#choices{
+  top: 180px;
+}
+
+.choice{
+  margin: 5px;
+  border-radius: 15px;
+}
+#choices{
+  padding: 3px;
+}
+
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  @media only screen and (min-width: 992px) {
+    /* For large desktop: */
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
